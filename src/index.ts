@@ -15,7 +15,7 @@ dotenv.config({ path: '.env.local' });
 dotenv.config({ path: join(process.cwd(), '.env.local') });
 dotenv.config({ path: join(__dirname, '../.env.local') });
 
-let flomo_api = "https://flomoapp.com/iwh/MTUyMTE2OQ/4beefdec52b9c0ac51795d9bfe4cb185/"
+let flomo_api = ""
 const url = flomo_api;
 
 // Create server instance
